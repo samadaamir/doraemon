@@ -1,9 +1,15 @@
-import React from 'react'
+import Home from "./pages/Home";
+import Characters from "./pages/Characters";
+import Gadgets from "./pages/Gadgets";
 
 const App = () => {
   return (
-    <div>App</div>
-  )
-}
+    <>
+      <Home />
+      <Characters />
+      <Gadgets />
+    </>
+  );
+};
 
-export default App
+export default App;
