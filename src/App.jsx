@@ -1,13 +1,21 @@
 import Home from "./pages/Home";
 import Characters from "./pages/Characters";
 import Gadgets from "./pages/Gadgets";
+import Navbar from "./components/Navbar";
 
 const App = () => {
   return (
     <>
-      <Home />
-      <Characters />
-      <Gadgets />
+      <Navbar />
+      <section id="home">
+        <Home />
+      </section>
+      <section id="characters">
+        <Characters />
+      </section>
+      <section id="gadgets">
+        <Gadgets />
+      </section>
     </>
   );
 };
